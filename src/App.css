@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #e2e8e0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* NAVBAR */
+header {
+    background-color: #090909;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.itemList ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemList ul li{
+    margin: 10px;
+}
+
+.cartContainer {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart {
+    font-size: 26px;
+}
+
+.quantCart{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    color: #090909;
+    background-color: #e2e8e0;
+    text-align: center;
+    top: 0;
+    left: 75%;
+    border-radius: 60%;
+}
+
+/* ITEM */
+.itemDetail {
+    padding: 50px;
+    display: flex;
+    background-color: #1d1c1c;
+}
+
+.ImageDetail {
+    width: 100%;
+    height: 90vh;
+}
+
+.infoDetail {
+    padding: 0px 50px;
+    font-size: 300%;
+}
+
+.countDetail {
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+}
+
+.buttonCount {
+    padding: 7px 15px;
+    margin: 20px 50px;
+    background-color: #1d1c1c;
+}
+
+/* CART */
+.Cart {
+    padding: 20px;
+    background-color: #1d1c1c;
+}
+
+.button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #1d1c1c;
+}
+
+.topCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1d1c1c;
+}
+
+.contentCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productDetail {
+    flex: 2;
+    display: flex;
+}
+
+.imgCart {
+    width: 200px;
+    margin: 0px 10px;
+}
+
+.order {
+    flex: 1;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;  
+    margin: 20px;
+}
+
+/* CARDITEM */
+.itemContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    background-color: #1d1c1c;
+}
+
+.cardItem {
+    height: 800px;
+    width: 560px;
+    margin: 20px; 
+}
+
+.cardItem img {
+    width: 100%;
+    margin-bottom: 5px; 
+}
+
+.cardItem h4 {
+    margin-bottom: 3px; 
+}
